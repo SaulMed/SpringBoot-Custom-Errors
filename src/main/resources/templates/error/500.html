@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Error 500</title>
+</head>
+<body style="margin: 0 auto; text-align:center;">
+	<h3>Oops, ha ocurrido un error.</h3>
+	
+	<div th:text="${error}"></div>
+	<div th:text="${message}"></div>
+	<div th:text="${status}"></div>
+	<div th:text="${timestamp}"></div>
+	<hr>
+	<div th:text="${trace}"></div>
+	<img alt="background500" src="/img/500.png" style="width:60%; display:flex; margin: 0 auto;">
+	
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${error}"></title>
+</head>
+<body style="margin: 0 auto; text-align:center;">
+	<h3 th:text="${error}"></h3>
+	
+	<div th:text="${message}"></div>
+	<div th:text="${status}"></div>
+	<hr>
+	<div th:text="${path}"></div>
+	<div th:text="${timestamp}"></div>
+	<img alt="background500" src="/img/userNotFound.png" style="width:20%; display:flex; margin: 0 auto;">
+	
+</body>
+</html>
